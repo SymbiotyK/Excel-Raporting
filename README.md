@@ -1,2 +1,2 @@
 # Raportowanie-Excel
-Arkusze excel stworzone na potrzeby firmy w celu zbierania danych z różnych obszarów
+Excel sheets created for the company's needs to gather data from various areas.
