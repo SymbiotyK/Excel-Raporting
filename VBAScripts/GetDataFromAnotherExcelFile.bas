@@ -12,7 +12,7 @@ Function sumAmount(whereFirstLoad As Range, fDate As Variant, lDate As Variant, 
     Set wsDest = ThisWorkbook.Sheets("Dane")
     
     On Error Resume Next
-    Set workBookPath = Workbooks.Open("C:\Users\u606645\OneDrive - White Drive Products\Maciek\Raporty godzinowe\" & filePath, ReadOnly:=True)
+    Set workBookPath = Workbooks.Open("C:\Users\#UserID#\#OneDriveDirectory#\[...]\" & filePath, ReadOnly:=True)
     On Error GoTo 0
     
     If workBookPath Is Nothing Then
@@ -147,7 +147,7 @@ Sub fillTable(whereFirstSearch As Range, whereFirstLoad As Range, whereLastLoad 
     Dim LoginName As String
     LoginName = Environ("Username")
     
-    path = "C:\Users\u606645\OneDrive - White Drive Products\Maciek\Raporty godzinowe\" & filePath
+    path = "C:\Users\#UserID#\#OneDriveDirectory#\[...]\" & filePath
     Set workBookPath = Workbooks.Open(path, ReadOnly:=True)
     
     ' Check if the workbook is open
